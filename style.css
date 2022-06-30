@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.game{
+    width: 100%;
+    height: 100vh;
+    background-image: url('Images/JS_Game_BG.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hide{
+    display: none;
+}
+
+#img{
+    position: relative;
+    top: 0.2em;
+    width: 2.5em;
+    height: 1.5em;
+}
+
+.startWindow{
+    color: white;
+    position: absolute;
+    background-color: #ff5253;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    border: 3px solid #f5ad9b;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    font-size: 1.4em;
+    letter-spacing: 0.3em;
+    word-spacing: 0.12em;
+    text-transform: capitalize;
+    line-height: 50px;
+    box-shadow: 0px 5px 5px #777;
+}
+
+.score{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    text-align: center;
+    background: #346e60;
+    width: 17rem;
+    line-height: 4.4rem;
+    color: white;
+    font-size: 1.7rem;
+    box-shadow: 0px 5px 5px #777;
+}
+
+.car, .dushman{
+    width: 50px;
+    height: 90px;
+    background: greenyellow;
+    background-image: url('Images/transparentBgCar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    /* left: 50px; */
+    bottom: 100px;
+}
+.gameArea{
+    width: 400px;
+    height: 100vh;
+    background: #2d3634;
+    margin: auto;
+    position: relative;
+    border-left: 6px dashed white;
+    border-right: 6px dashed white;
+}
+.line{
+    width: 12px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+}
+
+.author{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
